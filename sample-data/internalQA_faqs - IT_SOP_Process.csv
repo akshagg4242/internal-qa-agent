@@ -1,0 +1,31 @@
+Question,Answer
+How do I reset my email password?,Go to IT portal → Click “Forgot Password” → Enter employee ID → Follow reset link.
+How do I request a new laptop?,Fill IT Asset Request form in HRMS → Manager approval → IT delivers.
+What is the office Wi-Fi password?,Connect to SSID “CompanyNet” → Password available at IT helpdesk.
+How do I access VPN remotely?,Install VPN client → Enter company credentials → Use OTP.
+How do I set up Outlook email?,Open Outlook → Add account → Enter company email + password.
+How do I install company software?,Go to Software Portal → Select app → Click “Install.”
+How do I update antivirus?,Open Antivirus app → Click “Update” → Restart system.
+How do I report a phishing email?,Forward suspicious email to security@company.com.
+How do I unlock my account?,Contact IT helpdesk → Verify identity → Reset password.
+How do I connect to shared drive?,Open File Explorer → Map network drive → Enter path + credentials.
+How do I log a support ticket?,Go to Helpdesk Portal → New Ticket → Enter issue → Submit.
+How do I schedule a meeting room?,Use Outlook → Select “Meeting Room” resource → Book slot.
+What is the workflow for publishing a blog post?,Draft → Manager review → Content Head approval → Publish.
+How do I escalate IT issues?,Log ticket → Escalate to IT lead → Notify Operations Manager if unresolved.
+How do I request project approval?,Submit proposal → Manager review → Director approval.
+What is the workflow for onboarding employees?,HR collects docs → IT sets up account → Manager assigns buddy.
+How do I conduct quarterly reviews?,Manager schedules → Employee self‑review → Manager feedback → HR records.
+How do I initiate payroll?,HR finalizes attendance → Finance processes salaries → Bank transfers.
+What is the workflow for vendor payments?,Procurement verifies invoice → Finance approval → Payment release.
+How do I handle customer complaints?,Log complaint → Assign to support → Resolve → Close ticket.
+How do I apply for leave?,Log in HRMS → Leave Request → Select dates → Submit.
+What is the expense reimbursement process?,Upload receipts → Manager approval → Finance processes in 7 days.
+How do I submit timesheets?,Log in HRMS → Timesheet → Fill hours → Submit weekly.
+What is the travel booking SOP?,Request via Travel Portal → Manager approval → Travel desk books tickets.
+How do I escalate unresolved issues?,"Escalate to team lead → If unresolved, raise ticket in escalation portal."
+How do I onboard a new intern?,HR sends checklist → Manager assigns buddy → IT provides laptop.
+How do I conduct exit interviews?,HR schedules interview → Collect feedback → Disable accounts.
+What is the SOP for client meetings?,Prepare agenda → Share with client → Record minutes → Follow up.
+How do I submit monthly reports?,Prepare report → Upload to SharePoint → Notify manager.
+What is the SOP for procurement?,Raise purchase request → Manager approval → Procurement team processes.
