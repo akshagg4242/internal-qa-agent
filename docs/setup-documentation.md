@@ -3,7 +3,8 @@
 ## Prerequisites
 
 - n8n installed
-- Required credentials configured
+- Access to Google Sheets
+- Required workflow credentials
 
 ---
 
@@ -21,21 +22,49 @@ workflow/internal-qa-agent-workflow.json
 
 ---
 
-## Step 2 — Configure Nodes
+## Step 2 — Configure FAQ Dataset
 
-Update workflow configuration.
+Open:
 
-Configure:
+data/internal-faqs.xlsx
 
-- Trigger node
-- Response node
-- Any credentials required
+Review:
+
+- Question
+- Answer
+- Category
+
+Update sample records if required.
+
+---
+
+## Step 3 — Connect Data Source
+
+Configure the workflow to read the FAQ sheet.
+
+Update:
+
+- Spreadsheet source
+- Sheet selection
+- Access permissions
 
 Save workflow.
 
 ---
 
-## Step 3 — Activate Workflow
+## Step 4 — Configure Workflow Nodes
+
+Verify:
+
+- Trigger node
+- Processing node
+- Response node
+
+Save changes.
+
+---
+
+## Step 5 — Activate Workflow
 
 Enable workflow.
 
@@ -43,7 +72,7 @@ Confirm successful activation.
 
 ---
 
-## Step 4 — Test Queries
+## Step 6 — Test Query
 
 Example:
 
@@ -53,11 +82,11 @@ How do I request inventory access?
 
 Expected:
 
-Agent returns configured response.
+Agent returns matching FAQ response.
 
 ---
 
-## Step 5 — Verify Execution
+## Step 7 — Verify Execution
 
 Open:
 
@@ -69,14 +98,14 @@ Confirm successful workflow execution.
 
 ## Troubleshooting
 
-No response:
-- Verify trigger configuration
+No reply:
+- Verify workflow activation
 
-Workflow failing:
-- Check execution logs
+FAQ not loading:
+- Verify sheet connection
 
-Credential issue:
-- Reconfigure node credentials
+Execution failed:
+- Review execution logs
 
 ---
 
