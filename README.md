@@ -40,6 +40,24 @@ internal-qa-agent/
 
 ---
 
+## Knowledge Source
+
+The agent uses a structured FAQ dataset stored in:
+
+```text
+data/internal-faqs.xlsx
+```
+
+This sheet acts as the reference source for answering internal queries.
+
+Example fields:
+
+- Question
+- Answer
+- Category
+
+Sensitive or real organizational data has been excluded.
+
 ## Workflow
 
 User Question
