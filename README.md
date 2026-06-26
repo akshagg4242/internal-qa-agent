@@ -61,11 +61,16 @@ Sensitive or real organizational data has been excluded.
 ## Workflow
 
 User Question
+
 ↓
+
 n8n Workflow
 ↓
+
 Response Processing
+
 ↓
+
 Generated Reply
 
 ---
